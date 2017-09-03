@@ -1,0 +1,30 @@
+h2, #controller-colors-style .fa-sliders,.card-title,#year,a,a:hover,#yearsOfExperience{
+    color:#ffc107;
+}
+.social-network .fa{
+    color: #fff;
+    background: none repeat scroll 0 0 #ffc107;
+}
+
+.social-network .fa:hover {
+    /*opacity: 0.7;*/
+    color:#ffc107;
+    background: none repeat scroll 0 0 #fff;
+}
+
+.button-show-content .icon rect,.button-show-content .icon line {
+    fill: #ffc107;
+    stroke: #ffc107;
+
+}
+
+.icon-title-skill{
+    /*    border: 1px solid #ffc107;*/
+    color:#ffc107;
+}
+.color-bg-custom{
+    background-color: #ffc107;
+}
+#skills h2{
+    color: #fff;
+}

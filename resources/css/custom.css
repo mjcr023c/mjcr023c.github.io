@@ -1,0 +1,182 @@
+html,body {
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    display: none;
+    top: 20%;
+    bottom:0px;
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden; 
+    overflow-y: visible; 
+    width: 100%;
+}
+
+.jumbotron{
+    margin-bottom:0px !important;
+}
+
+footer{
+    position: absolute;
+    bottom: 1px;
+    color: red;
+    width: 100%;
+    display: none;
+    text-align: center;
+    border-top: 1px #454545;
+
+}
+
+#controller-colors-style {
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 0 0 3px;
+    left: 0;
+    padding: 12px 0;
+    position: fixed;
+    top: 80px;
+    width: 134px;
+    z-index: 99999999;
+    left: -134px;
+}
+
+#controller-colors-style div {
+    padding: 0 8px;
+    padding-bottom: 5px;
+}
+
+#controller-colors-style h3 {
+    color: #222;
+    font-family: helvetica;
+    font-size: 1.2em;
+    letter-spacing: unset;
+    margin: 0 0 15px;
+    text-transform: capitalize;
+}
+
+#controller-colors-style .switch-slide {
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 42px;
+    color: #454545;  
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 40px;
+    border-radius: 0 3px 3px 0;
+    background: #f1f1f1;
+}
+
+.colors-style {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+.colors-style li {
+    float: left;
+    margin: 2px;
+}
+.colors-style li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.social-network {
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    position: absolute;
+}
+.social-network .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-show-content {
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#btn-open{
+    display: block;
+}
+#btn-close{
+    display: none;
+    stroke-width:10;
+}
+.card{
+    height: 220px;
+    background-color: #454545;
+}
+.list-group-item{
+    background-color: #454545;
+    color: #fff;
+}
+.card-block {
+    padding: 10px; 
+}
+
+.icon-title-skill{
+    padding: 7px 7px 7px 7px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+}
+.icon-skill{
+    padding: 7px 7px 7px 7px;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center center;
+}
+.text-vertical-center{
+    text-shadow: 2px 2px 20px rgba(34, 49, 46, 0.71);
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color:#fff;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+.default{
+    background-color: #454545; 
+    border: solid 1px #454545;
+}
+
+.skills-text{
+    display:none;
+    color:#fff;
+    font-size: 1.3em;
+}
+.font-small{
+    font-size: 0.9em;
+}
